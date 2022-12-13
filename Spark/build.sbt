@@ -1,11 +1,20 @@
+import sbt.project
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / scalaVersion := "2.13.10"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "Spark"
+    name := "Spark",
+    version := "1.0",
+    scalaVersion := "2.13.10",
+    Compile / mainClass := Some("com.testing.process.WordCountRDD"),
   )
+
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case x => MergeStrategy.first
+}
 
 val sparkVersion = "3.3.1"
 
