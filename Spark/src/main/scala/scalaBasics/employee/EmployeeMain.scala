@@ -6,5 +6,9 @@ object EmployeeMain extends App {
 
   println(employee)
   println(employee.address)
+
+  employee.sayHello(employee.name)
+  employee.name = "GAK"
+  println(employee.name)
   println("Done")
 }

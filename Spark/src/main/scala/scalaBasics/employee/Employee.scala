@@ -1,5 +1,8 @@
 package scalaBasics.employee
 
-import java.util.Date
 
-case class Employee(id: Int, name: String, dob: String, address: Address)
+case class Employee(id: Int, var name: String, dob: String, address: Address){
+  def sayHello(name:String)={
+    println(s"Hello, ${name}")
+  }
+}
