@@ -5,3 +5,5 @@
 *.bsp
 
 Spark/target/*
+
+Spark/src/main/output/
