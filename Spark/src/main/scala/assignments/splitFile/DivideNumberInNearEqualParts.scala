@@ -1,10 +1,8 @@
 package assignments.splitFile
 
-import assignments.splitFile.DivideFileInNearEqualParts.{elements, numberOfPartitions}
-
 import scala.collection.mutable.ArrayBuffer
 
-object DivideFileInNearEqualParts extends App {
+object DivideNumberInNearEqualParts extends App {
 
   def splitInNearEqualParts(elements:Int, numberOfPartitions:Int):ArrayBuffer[Int]={
     var partitionsSizes = new ArrayBuffer[Int]
