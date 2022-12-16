@@ -1,4 +1,4 @@
-package exception
+package scalaBasics.exception
 
 object ExceptionMain extends App {
 

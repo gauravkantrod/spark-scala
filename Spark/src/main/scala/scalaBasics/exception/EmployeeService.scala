@@ -1,4 +1,4 @@
-package exception
+package scalaBasics.exception
 
 case class EmployeeService(){
   @throws[WorkExpException]

@@ -1,4 +1,4 @@
-package experiment
+package scalaBasics.experiment
 
 class ageException(age: String) extends Exception(age)
 

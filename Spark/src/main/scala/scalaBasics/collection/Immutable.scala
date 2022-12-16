@@ -1,4 +1,4 @@
-package collection
+package scalaBasics.collection
 
 object Immutable extends App {
 
@@ -21,6 +21,9 @@ object Immutable extends App {
 
   val diffList = newLst2.diff(newLst)
   println(diffList)
+
+  println(newLst2.init)
+  
 
 
 
