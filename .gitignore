@@ -4,6 +4,7 @@
 *.idea
 *.bsp
 
+Spark/project/*
 Spark/target/*
 
 Spark/src/main/output/
