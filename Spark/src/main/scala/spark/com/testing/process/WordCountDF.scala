@@ -1,7 +1,7 @@
-package com.testing.process
+package spark.com.testing.process
 
 import org.apache.spark.sql.SparkSession
-import utils.SparkUtils
+import spark.utils.Utils
 
 object WordCountDF extends App {
 
@@ -13,7 +13,7 @@ object WordCountDF extends App {
 
   val inputPath = "src/main/resources/employee.json"
   val outputPath = "src/main/output/"
-  implicit val sparkSession = SparkUtils.getSparkSession("Word-count-DF")
+  implicit val sparkSession = Utils.getSparkSession("Word-count-DF")
   val avgSalary = getGenderWiseSalary(inputPath)
 
   avgSalary.show(false)

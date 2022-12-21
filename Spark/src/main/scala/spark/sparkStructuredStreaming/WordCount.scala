@@ -1,4 +1,4 @@
-package sparkStructuredStreaming
+package spark.sparkStructuredStreaming
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 

@@ -1,8 +1,8 @@
-package com.testing.process
+package spark.com.testing.process
 
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
-import utils.SparkUtils
+import spark.utils.Utils
 
 import java.util.UUID
 
@@ -15,7 +15,7 @@ object WordCountRDD extends App {
 
   val inputPath = "src/main/resources/words.txt"
   val outputPath = "src/main/output/"
-  implicit val sc = SparkUtils.getSparkSession("word-count").sparkContext
+  implicit val sc = Utils.getSparkSession("word-count").sparkContext
   sc.setLogLevel("ERROR")
 
   val wordCount = getWordCount(inputPath)

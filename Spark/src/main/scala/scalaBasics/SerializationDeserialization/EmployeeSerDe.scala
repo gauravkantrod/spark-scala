@@ -1,4 +1,4 @@
-package SerializationDeserialization
+package scalaBasics.SerializationDeserialization
 
 import org.apache.commons.lang3.SerializationUtils
 
@@ -20,13 +20,13 @@ object EmployeeSerDe extends App{
     emp
   }
 
-  val emp = Employee("Gaurav", 28)
+//  val emp = Employee("Gaurav", 28)
 //  serializer(emp)
 //  println(deserializer("/Users/gauravkantrod/Desktop/BigData/olc/scala/SerDe/emp.ser"))
 
-  def getEmpByteArray(e:Employee)={
-    val empbyteArray = SerializationUtils.serialize(e)
-    empbyteArray
+  def getEmpByteArray(e: Employee): Array[Byte] = {
+    val empByteArray = SerializationUtils.serialize(e)
+    empByteArray
   }
 
   def getObjectFromByteArray(empByteArray:Array[Byte])={
@@ -34,5 +34,6 @@ object EmployeeSerDe extends App{
     empObj
   }
 
+  val emp = Employee("Gaurav", 29)
   println(getObjectFromByteArray(getEmpByteArray(emp)))
 }
