@@ -36,5 +36,9 @@ object ListObj extends App {
   println(pList.sortBy(_.age))
   println(pList.sortBy(_.name))
 
+//  val lst3 = List(1,2,3)
+//  lst3 +: 10
+//  println(lst3)
+
 
 }

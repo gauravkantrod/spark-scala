@@ -40,6 +40,5 @@ object CustomListSorting extends App {
 
   println(personList2.sorted)
 
-
   
 }
