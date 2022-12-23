@@ -16,7 +16,7 @@ object Utils {
     numsSeq.reduce(_ + _).toInt
   }
 
-  println(getUniqueInt("GAURAV"))
-  println(getUniqueInt("URAVGA"))
+//  println(getUniqueInt("GAURAV"))
+//  println(getUniqueInt("URAVGA"))
 
 }
