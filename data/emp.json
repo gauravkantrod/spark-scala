@@ -1,0 +1,41 @@
+[{
+  "name": "g",
+  "dob": "1989-12-31T00:00:00.000Z",
+  "salary": 5000,
+  "email": [
+    "g.java@gmail.com",
+    "g.hadoop@gmail.com"
+  ],
+  "communication": {
+    "phones": {
+      "home": "9032412236",
+      "mobile": "7999010203"
+    },
+    "address": {
+      "area": "Lingampally",
+      "district": "Hyderabad",
+      "pin": 500091
+    }
+  }
+},
+{
+  "name": "isha",
+  "dob": "1991-12-31T00:00:00.000Z",
+  "salary": 15000,
+  "email": [
+    "isha.1234@gmail.com",
+    "isha.hadoop@gmail.com"
+  ],
+  "communication": {
+    "phones": {
+      "home": "9232412236",
+      "mobile": "7249010203"
+    },
+    "address": {
+      "area": "Hitech",
+      "district": "Hyderabad",
+      "pin": 500038
+    }
+  }
+}
+]
