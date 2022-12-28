@@ -1,0 +1,16 @@
+101,Gaurav,28,1
+102,Sasha,29,1
+103,Zoro,30,2
+104,Hash,21,2
+105,Meth,23,3
+106,Beer,34,1
+107,Whisky,12,4
+108,Rum,12,4
+109,Vodaka,22,3
+110,Gin,18,3
+111,Old Monk,18,3
+112,Red Label,22,3
+113,Kings,12,3
+114,Caboo,5,4
+115,Wine,5,6
+116,Tadi,12,6

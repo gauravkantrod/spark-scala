@@ -10,7 +10,11 @@ object SparkSQLFunc extends App {
   //spark.sql("SELECT !false").show()
 
   // format is yyyy-mm-dd hr:mins:secs
-  spark.sql("SELECT to_date('1994-10-30 12:59:59') < to_date('1994-10-31') ").show()
+  //spark.sql("SELECT to_date('1994-10-30 12:59:59') < to_date('1994-10-31') ").show()
+
+
+  spark.sql(" SELECT EXTRACT(YEAR FROM '1994-10-10')").show()
+  spark.sql("SELECT abs(-10)").show()
 
 
   println("Done")

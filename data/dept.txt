@@ -1,0 +1,6 @@
+1,IT
+2,HR
+3,Sales
+4,Finance
+5,Security
+6,Freelaner
