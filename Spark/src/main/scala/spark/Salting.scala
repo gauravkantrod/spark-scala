@@ -35,7 +35,7 @@ object Salting extends App {
     "SELECT * FROM saltedOptimizedCTE")
   deptSaltedDF.show()
 
-  
+
 
 
 

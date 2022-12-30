@@ -16,7 +16,7 @@ object QueueStreaming extends App {
   val rdd2 = sc.parallelize(List(6,7,8,9,10))
 
   val inputQueue:mutable.Queue[RDD[Int]] = mutable.Queue()
-  inputQueue += rdd2
+  inputQueue += rdd1
   inputQueue += rdd2
 
   val inputQueueDStream = ssc.queueStream(inputQueue)
