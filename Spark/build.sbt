@@ -36,6 +36,13 @@ libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka-0-10" % "3.3
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % Test
 // https://mvnrepository.com/artifact/com.holdenkarau/spark-testing-base
 libraryDependencies += "com.holdenkarau" %% "spark-testing-base" % "3.2.0_1.3.0" % Test
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.30"
+// https://mvnrepository.com/artifact/net.liftweb/lift-json
+libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+// https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10
+libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.3.1"
+
 
 
 
