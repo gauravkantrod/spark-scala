@@ -1,0 +1,12 @@
+{
+	"name":"Gaurav",
+	"surname":"Kantrod",
+	"dob":"1999-10-09",
+	"address":{
+		"line_1":"Flat no 101, GK Heights",
+		"line_2":"K road",
+		"email":{
+			"primaryEmail":"g@gmail.com"
+		}
+	}
+}
