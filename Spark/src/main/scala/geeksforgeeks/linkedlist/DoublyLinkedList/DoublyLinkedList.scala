@@ -24,9 +24,14 @@ case class DoublyLinkedList(var head:Option[Node]=None, var tail:Option[Node]=No
     }
   }
 
-  def addElementAtIndex(value:Int, index:Int):Unit={
-
-  }
+//  def addElementAtIndex(value:Int, index:Int):Unit={
+//    val newNode = Some(Node(value))
+//
+//    if (head.isEmpty){
+//      println("Empty linked list.")
+//    }
+//
+//  }
 
   def printDoublyLinkedList():Unit={
     while(head.get.next.isDefined){

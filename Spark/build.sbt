@@ -43,6 +43,13 @@ libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10
 libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.3.1"
 
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-http" % "10.5.0",
+  "com.typesafe.akka" %% "akka-stream" % "2.8.0",
+ "com.typesafe.slick" %% "slick" % "3.4.1",
+  "com.typesafe.slick" %% "slick-hikaricp" % "3.4.1"
+)
+
 
 
 
